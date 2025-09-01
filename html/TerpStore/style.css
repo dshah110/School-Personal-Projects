@@ -1,0 +1,98 @@
+html {
+  font-size: 14px;
+  font: Arial;
+  /*background-color: black;*/
+}
+
+.main {
+  position: relative;
+  background: url(images/JimHenson.jpg);
+  background-size: cover;
+  border: 0.4rem solid green;
+  width: 600px;
+  height: 600px;
+}
+
+.title {
+  margin: 1rem;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  font-size: 40px;
+}
+
+#link-container {
+  background-color: rgb(211, 211, 211, 0.8);
+  font-size: 16px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border: solid black;
+}
+
+#link-container a {
+  color: brown;
+}
+
+#link-container a:hover {
+  font-size: 12px;
+}
+#link-container a:visited {
+  color: beige;
+}
+
+footer {
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  border: ridge;
+  border-color: lightblue;
+  border-width: 1rem;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+footer a {
+  color: azure;
+} /*hot maybe*/
+
+footer a:hover {
+  font-size: 14px;
+}
+
+.form-container-two {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: azure solid;
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  width: 400px;
+  height: 220px;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: azure solid;
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+form {
+  padding: 1rem;
+}
+
+.button {
+  border: double black;
+  border-radius: 8px;
+  height: 3rem;
+  width: 8rem;
+}

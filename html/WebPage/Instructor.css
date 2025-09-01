@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  font-family: "Roboto", "Times New Roman", sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background: url(window.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover entire container */
+  background-position: center; /* try left right */
+}
+
+.style-one {
+  text-align: left;
+  color: purple;
+}
+
+.style-two {
+  width: 41rem;
+  text-align: left;
+  color: green;
+}
+
+table {
+  width: auto;
+  height: auto; /* auto horizontally centers  
+                       element within the container */
+  border: 0.01rem solid black;
+}
+
+th {
+  border: 0.01rem solid;
+  color: brown;
+  border-color: black;
+  background-color: antiquewhite;
+  text-align: center;
+}
+td {
+  border: 0.01rem solid;
+  background-color: white;
+  text-align: center;
+}
+
+#end {
+  color: red;
+}

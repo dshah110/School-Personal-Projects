@@ -1,0 +1,62 @@
+<!-- You implement -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Catalog Inquiry</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">
+            <u>Catalog Inquiry</u>
+        </h1>
+
+        <div class="form-container">
+            <form action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+                <u>Item Category</u>
+                <input name="item-choice" list="item-choice" required autofocus>
+                <datalist id="item-choice">
+                    <option value="clothes"></option>
+                    <option value="books"></option>
+                    <option value="music"></option>
+                    <option value="food"></option>
+                    <option value="other"></option>
+                </datalist>
+                <br/>
+                <br/>
+
+                <label><u>Maximum Cost ($)</u></label>
+                <input type="number" id="cost" name="maximumCost" step="5" value="1" min="1" max="1000">
+                <br/>
+                <br/>
+
+                <input type="checkbox" name="availableOnCampus"/>
+                <u>Available on Campus</u> <br/> <br/>
+
+                <input type="checkbox" name="availableOnline" checked="checked"/>
+                <u>Available Online</u> <br/>
+
+                <u>Additional Information</u><br/>
+                <textarea rows="8" cols="42" name="info"></textarea>
+                <br/>
+
+                <u>Contact Email Address:</u>
+                <input id="emailaddress" type="email" name="email"  placeholder="example@terpmail.umd.edu" size="30">
+
+                <br/>
+                <br/>
+                <input class="button" type="submit" value="Submit Inquiry"/>
+			    <input class="button" type="reset" value="Clear"/>
+
+            </form>
+
+
+        </div>
+
+        <!--#include file="footer.shtml"-->
+    </div>
+</body>

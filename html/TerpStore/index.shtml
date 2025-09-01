@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Terp Store</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">
+            <u>Terp Store</u>
+        </h1>
+
+        <div id="link-container" class="links">
+            <a href="catalogInquiry.shtml"> Catalog Inquiry</a>
+            <br/>
+            <a href="placingOrder.shtml">Placing Order</a>
+        </div>
+
+        <!--#include file="footer.shtml"-->
+    </div>
+</body>

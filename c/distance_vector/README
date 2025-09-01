@@ -1,0 +1,23 @@
+# Distance Vector Routing Protocol
+
+The second assignment of my networking class at UMD. A simple distance vector routing protocol. This one is a bit more complex than the ping server and client. It has a parser and scanner, event sets, link sets, routing tables, node-to-hostname, and a testing driver.
+
+## How to run
+
+To run the driver, use the following command:
+
+```bash
+make
+./rt
+```
+
+Again forgot how to run it haha. Feel free to look through the code and figure it out yourself.
+
+## How to run
+
+To run the driver, use the following command:
+
+```bash
+make all
+./rt
+```

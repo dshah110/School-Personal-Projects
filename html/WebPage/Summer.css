@@ -1,0 +1,89 @@
+/* Do not remove this rule */
+
+html {
+  font-size: 14px;
+  /*background-color: black;*/
+}
+
+body {
+  background-color: antiquewhite;
+  border-style: double;
+  border-color: brown;
+  border-width: 0.6rem;
+  padding: 0.75rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 53rem;
+}
+#main {
+  border-style: ridge;
+  border-color: blue;
+  border-width: 0.75rem;
+  background-color: white;
+  padding: 3rem;
+}
+table {
+  width: auto;
+  height: auto; /* auto horizontally centers  
+                     element within the container */
+  border: 0.01rem solid black;
+}
+
+th {
+  border: 0.01rem solid;
+  color: brown;
+  border-color: black;
+  background-color: antiquewhite;
+  text-align: center;
+}
+td {
+  border: 0.01rem solid;
+  background-color: white;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+
+ol {
+  list-style-type: upper-latin;
+}
+
+ol ol {
+  list-style-type: decimal;
+}
+
+.styleOne {
+  color: brown;
+}
+
+.globe {
+  height: 6rem;
+  text-decoration: none;
+  margin: 0rem;
+}
+
+.title {
+  height: 4.1rem;
+  margin: 0rem;
+}
+
+.globe-link {
+  text-decoration: none;
+}
+
+#intro {
+  width: 41rem;
+}
+
+#intro:hover {
+  color: red;
+}
+#intro::first-letter {
+  font-weight: bold;
+  font-size: 4rem;
+}
