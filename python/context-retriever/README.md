@@ -9,7 +9,6 @@ Then, given a query, it will perform an embedding of the query to retrieve the m
 This was a project that was done in around a day so there is MUCH to improve and clean up. Currently it splits code based on file type (go, yaml, sh, js, c, cpp) and splits the code into chunks of 1000 tokens with an overlap of 200 tokens. In the future it may be possible to split the code based on function or class definitions.
 
 
-
 ## Setup
 
 1. Install dependencies:
