@@ -1,2 +1,3 @@
-Place the TerpStore folder in the htdocs folder of your web server. The script in the processing folder will not work as
-it is a php script that relies on a web server (e.g., XAMPP).
+# TerpStore
+
+This is a simple e-commerce website that I created for one of my classes at UMD. It has a lot of different elements and features that I learned in the class.

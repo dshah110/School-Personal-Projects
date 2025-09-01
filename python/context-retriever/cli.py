@@ -97,7 +97,7 @@ def main():
                         print(f"  - {r}")
 
         elif action == "Create / update context with new repos":
-            query = questionary.text("Search term (e.g. 'sfcn')?").ask()
+            query = questionary.text("Search term (e.g. 'query')?").ask()
             results = search_repos(ORGANIZATION, query)
             if not results:
                 print("No repos found.")
